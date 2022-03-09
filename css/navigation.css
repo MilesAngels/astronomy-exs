@@ -35,21 +35,17 @@
     margin-top:8px !important;
     width:100% !important;
 }
-
 ul.dropdown-menu > li {
    float 
 }
-
 .dropdown-item:hover {
     background-color: #000304;
     text-decoration: underline;
 }
-
 .dropdown:hover .dropdown-menu {
     display: block;
     margin: auto;
 }
-
 .dropdown:hover {
     border-bottom: 2px solid #fff;
     
