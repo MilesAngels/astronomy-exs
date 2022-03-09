@@ -55,11 +55,12 @@ ul.dropdown-menu > li {
 } */
 
 .nav > li.dropdown.open {
-    position: static;
+    position: static !important;
 }
   
 .nav > li.dropdown.open, .dropdown-menu {
     display: table;
+    border: none;
     border-radius: 0px;
     width: 100%;
     text-align: center;
@@ -79,9 +80,25 @@ ul.dropdown-menu > li {
     height: 100%;
     vertical-align: middle;
 }
-  
-@media screen and (max-width: 767px) {
-    .dropdown-menu > li {
-      display: block;
-    }
-}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    /* .dropdown-menu > li {
+        display: block;
+    } */
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }
+/* @media screen and (max-width: 767px) {
+    
+} */
