@@ -1,17 +1,49 @@
+/************** Google Fonts **************/
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+/************** Navigation **************/
+/* Changing the brand */
+.navbar-brand {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: #fff;
+}
+
+/* Changing the color of the navbar */
 .navbar-black {
     background-color: #000304;
 }
 
+/* Removing the toggle arrow */
 .dropdown-toggle::after {
     display: none;
 }
 
+/*  */
+.dropdown {
+    position: static;
+}
+
+/*  */
 .dropdown-menu {
     background-color: #000304;
     color: #fff;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)!important;
+    margin-top:0px !important;
+    width:100% !important;
 }
 
 .dropdown-item:hover {
     background-color: #000304;
     text-decoration: underline;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 8px;
+}
+
+.dropdown:hover {
+    border-bottom: 2px solid #fff;
 }
