@@ -2,9 +2,30 @@ body {
     background-color: #000304;
 }
 
+.flex {
+    display: flex;
+}
+
+.align-center {
+    align-items: center;
+}
+
+
 .section1 {
     background-image:url('../img/orion-nebula.jpg');
     background-size: cover;
-    width: 100vw;
+    /* background-repeat: no-repeat; */
+    width: 100%;
+    max-width: 90vw;
     height: 100vh;
+}
+
+.heading-container {
+    position: relative;
+    text-align: right;
+    max-width: 400px;
+}
+
+.heading-container > p {
+
 }
