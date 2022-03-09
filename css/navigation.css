@@ -83,6 +83,10 @@ ul.dropdown-menu > li {
     text-decoration: 1px solid #fff underline;
 }
 
+.nav-item > a:hover {
+    border-bottom: 2px solid #fff;
+}
+
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {  }
 
