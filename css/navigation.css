@@ -1,0 +1,110 @@
+/************** Google Fonts **************/
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+/************** Navigation **************/
+/* Changing the brand */
+.navbar-brand {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    color: #fff;
+}
+
+/* Changing the color of the navbar */
+.navbar-black {
+    background-color: #000304;
+}
+
+/* Removing the toggle arrow */
+.dropdown-toggle::after {
+    display: none;
+}
+
+
+.dropdown {
+    position: static;
+    /* left: -100vw; */
+}
+
+
+/* .dropdown-menu {
+    background-color: #000304;
+    color: #fff;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)!important; 
+    margin-top:8px !important;
+    width:100% !important;
+}
+ul.dropdown-menu > li {
+   float 
+}
+.dropdown-item:hover {
+    background-color: #000304;
+    text-decoration: underline;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin: auto;
+}
+.dropdown:hover {
+    border-bottom: 2px solid #fff;
+    
+} */
+
+.nav > li.dropdown.open {
+    position: static !important;
+}
+  
+.nav > li.dropdown.open, .dropdown-menu {
+    display: table;
+    border: none;
+    border-radius: 0px;
+    width: 100%;
+    text-align: center;
+    left: 0;
+    right: 0;
+}
+
+.dropdown-menu {
+    background-color: #000304;
+    margin-top: auto;
+    width: 100%;
+    
+}
+  
+.dropdown-menu > li {
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.dropdown-item:hover {
+    background-color: #000304;
+    text-decoration: 1px solid #fff underline;
+}
+
+.nav-item > a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    /* .dropdown-menu > li {
+        display: block;
+    } */
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }
+/* @media screen and (max-width: 767px) {
+    
+} */
