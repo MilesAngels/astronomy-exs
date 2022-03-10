@@ -1,11 +1,11 @@
 /************** Google Fonts **************/
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
 
 
 /************** Navigation **************/
 /* Changing the brand */
 .navbar-brand {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto Slab', serif;
     font-weight: 600;
     font-size: 2rem;
     color: #fff;
