@@ -73,19 +73,25 @@ body {
 }
 
 .ribbon1 {
-    width: 100%;  
+    width: 100%;
     height: 50vh;
-    background-image: linear-gradient(to top, #003d52,#000304);
+    background-image: linear-gradient(to bottom, #000304, #000d18, #001128, #031236, #240b3c);
+}
+
+.ribbon2 {
+    width: 100%;
+    height: 50vh;
+    background-image: linear-gradient(to bottom, #240b3c, #2b143c, #301c3d, #35243d, #392c3e);
 }
 
 
-.ribbon1-card {
+.ribbon-card {
     text-align: center;
     padding: 3rem 1.5rem;
     color: #FFF;
 }
 
-.ribbon1-card > p {
+.ribbon-card > p {
     padding-top: 20px;
 }
 
