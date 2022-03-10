@@ -1,0 +1,13 @@
+.footer-margin {
+    margin: 50px;
+}
+
+.footer-li {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5rem;
+    font-size: 1rem;
+}
+
+.bi {
+    fill:white;
+}
