@@ -1,6 +1,16 @@
 li {
     list-style-type: none;
 }
+h1 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 800;
+}
+
+h3 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
 
 body {
     background-color: #000304;
@@ -37,9 +47,8 @@ body {
 
 
 /************** Launch Section **************/
-/* .section2 {
+.section2 {
     width: 100%;
-    max-width: 90vw;
     height: 100vh;
     background-image:url('../img/spacex.jpg');
     background-size: contain;
@@ -50,7 +59,7 @@ body {
     position: relative;
     text-align: right;
     max-width: 400px;
-} */
+}
 /************** End of Launch Section **************/
 
 
@@ -65,17 +74,19 @@ body {
 .ribbon1 {
     width: 100%;
     max-width: 90%;
-    height: 40vh;
+    height: 50vh;
     background-image: linear-gradient(to top, #003d52,#000304);
 }
 
+
 .ribbon1-card {
     text-align: center;
-    padding: 40px 20px;
+    padding: 3rem 1.5rem;
     color: #FFF;
-    /* width: 300px;
-    height: 30vh;
-    color: #fff; */
+}
+
+.ribbon1-card > p {
+    padding-top: 20px;
 }
 
 .card-icons {
@@ -83,6 +94,7 @@ body {
     border-radius: 50%;
     width: 64px;
     padding: 5px;
+    margin-bottom: 40px;
 }
 /************** Ribbon Section **************/
 
