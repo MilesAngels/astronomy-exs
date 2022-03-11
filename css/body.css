@@ -6,6 +6,11 @@ h1 {
     font-weight: 800;
 }
 
+h2 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+}
+
 h3 {
     font-family: 'Roboto Slab', serif;
     font-weight: 600;
@@ -56,11 +61,25 @@ body {
     background-repeat: no-repeat;
 }
 
-/* .heading-container {
+.launch-container {
+    margin: 20vh 0;
+    width: 100%;
     position: relative;
-    text-align: right;
-    max-width: 400px;
-} */
+    text-align: center;
+    color: #FFF;
+}
+
+.launch-container > p{
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.launch-col {
+    margin: 10vh 0;
+    text-align: left;
+}
 /************** End of Launch Section **************/
 
 
@@ -84,6 +103,10 @@ body {
     background-image: linear-gradient(to bottom, #240b3c, #2b143c, #301c3d, #35243d, #392c3e);
 }
 
+.ribbon3 {
+    width: 100%;
+    height: 60vh;
+}
 
 .ribbon-card {
     text-align: center;
