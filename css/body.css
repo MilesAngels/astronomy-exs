@@ -38,6 +38,7 @@ body {
     align-items: center;
 }
 
+
 /************** Hero Section **************/
 .section1 {
     width: 100%;
@@ -58,6 +59,7 @@ body {
     padding-top: 15px;
 }
 /************** End of Hero Section **************/
+
 
 /************** Exoplanet Section **************/
 .section2 {
@@ -87,8 +89,21 @@ body {
 
 /************** End of Exoplanet Section **************/
 
-/************** Launch Section **************/
+
+/************** Deep Space Observation Section **************/
 .section3 {
+    width: 100%;
+    height: 100vh;
+    color: #FFF;
+}
+
+
+
+/************** Deep Space Observation Section **************/
+
+
+/************** Launch Section **************/
+.section4 {
     width: 100%;
     height: 100vh;
     background-image:url('../img/spacex.jpg');
