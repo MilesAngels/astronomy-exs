@@ -130,7 +130,7 @@ body {
 }
 
 .launch-container {
-    margin: 20vh 0;
+    margin: 10vh 0;
     width: 100%;
     position: relative;
     text-align: center;
@@ -142,14 +142,28 @@ body {
     margin: 0 auto;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    -webkit-text-stroke: 0.5px lightslategray;
-    -webkit-text-fill-color: #FFF;
+    /* -webkit-text-stroke: 1px lightslategray;
+    -webkit-text-fill-color: #FFF; */
 }
 
 .launch-col {
     margin: 10vh 0;
     text-align: left;
 }
+
+.fill-white {
+    fill: #fff;
+}
+
+.mission-cards {
+    height: 100px;
+    line-height: 1;
+}
+
+.vertical-align {
+    margin-top: 60px;
+}
+
 /************** End of Launch Section **************/
 
 
