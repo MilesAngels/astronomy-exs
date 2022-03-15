@@ -1,6 +1,12 @@
 li {
     list-style-type: none;
 }
+
+a {
+    text-decoration: none;
+}
+
+
 h1 {
     font-family: 'Roboto Slab', serif;
     font-weight: 800;
@@ -156,13 +162,25 @@ body {
 }
 
 .mission-cards {
-    height: 100px;
+    height: 20vh;
+    width:80%;
     line-height: 1;
+    padding: 1vh;
+    margin-bottom: 100px;
+    border: 1px solid slategray;
 }
 
 .vertical-align {
     margin-top: 60px;
 }
+
+.aside-tickets {
+    padding-left: 30px;
+}
+
+.background-opaque {
+    background-color: rgba(0, 3, 4, 0.7);
+}  
 
 /************** End of Launch Section **************/
 
@@ -223,6 +241,10 @@ body {
     background-color: #336a88;
     color: #fff;
     text-align: center;
+}
+
+.btn1 > a {
+    color: #FFF;
 }
 
 .btn1:hover {
