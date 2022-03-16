@@ -256,19 +256,55 @@ article > h2 {
 
 
 /************** Media Queries **************/
+@media (min-width: 500px) {
+    .ribbon-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        /* grid-auto-rows: minmax(200px, auto); */
+        gap: 10px;
+    }
+
+    .ribbon1, .ribbon2 {
+        height: 100vh;
+    }
+}
+
+
 @media (max-width: 767.98px){
     .section2 {
         height: 100vh;
+    }
+
+    .section3 {
+        height: 80vh !important;
     }
 
     .row > iframe, .row > article {
         margin: 0 auto;
     }
 
-    .section3 {
-        height: 80vh;
+    .launch-col {
+        padding: 0;
     }
 
+    .mission-cards {
+        margin: 0 auto;
+        padding: 15px;
+    }
+
+    .mission-cards {
+        margin-bottom: 30px;
+    }
+
+    .vertical-align {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .aside-tickets {
+        padding-left: 15px;
+    }
     
 }
 
@@ -276,6 +312,22 @@ article > h2 {
     .section3 {
         height: 100vh;
     }
+
+    .ribbon-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        /* grid-auto-rows: minmax(200px, auto); */
+        gap: 10px;
+    }
+
+    .ribbon1, .ribbon2 {
+        height: 50vh;
+    }
+
+
+    /* .mission-cards {
+        margin-top: -65px;
+    } */
 }
 
 @media (min-width: 992px) {
