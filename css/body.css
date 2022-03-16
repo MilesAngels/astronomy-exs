@@ -1,6 +1,12 @@
 li {
     list-style-type: none;
 }
+
+a {
+    text-decoration: none;
+}
+
+
 h1 {
     font-family: 'Roboto Slab', serif;
     font-weight: 800;
@@ -65,27 +71,29 @@ body {
 .section2 {
     width: 100%;
     height: 50vh;
-    /* background-image:url('../img/spacex.jpg');
-    background-size: cover;
-    background-repeat: no-repeat; */
-    background-color: #fff;
+    background-color: #000304;
+}
+
+.row > .exoplanet-video, .row > article {
+    padding-top: 5vh;
 }
 
 .exoplanet-container {
-    margin: 5vh;
-    width: 50%;
-    color: #000;
+    color: #FFF;
 }
 
-.exoplanet-video {
-    margin: 5vh;
-    width: 500px;
-    height: 40vh;
+.exoplanet-video > iframe {
+    width: 100%;
+    height: 400px;
 }
 
-.exoplanet-container > h2, .exoplanet-container > p {
-    margin: 5vh;
+article > h2 {
+    padding-top: 8vh;
 }
+
+/* .exoplanet-container > h2, .exoplanet-container > p {
+    margin: 5vh;
+} */
 
 /************** End of Exoplanet Section **************/
 
@@ -93,26 +101,26 @@ body {
 /************** Deep Space Observation Section **************/
 .section3 {
     width: 100%;
-    height: 165vh;
+    height: 100vh;
     color: #FFF;
     margin: 0 auto;
 }
 
 .deep-space-heading {
-    position: relative;
+    /* position: relative; */
     text-align: center;
     margin-top: 10vh;
 }
 
 .deep-space-heading > p {
     margin-top: 2vh;
-    line-height: 1.75rem;  
+    line-height: 1.75rem;
+    padding-bottom: 2vh;  
 }
 
 .star-map {
-    width: 100%;
-    margin: 5vh;
-    height: 100%;
+    width: 75%;
+    margin: 0 auto;
     border-radius: 200%;
     
 }
@@ -130,11 +138,11 @@ body {
 }
 
 .launch-container {
-    margin: 20vh 0;
+    margin: 10vh 0;
     width: 100%;
     position: relative;
     text-align: center;
-    color: #FFF;
+    color: rgb(255, 253, 253);
 }
 
 .launch-container > p{
@@ -142,12 +150,39 @@ body {
     margin: 0 auto;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
+    /* -webkit-text-stroke: 1px lightslategray;
+    -webkit-text-fill-color: #FFF; */
 }
 
 .launch-col {
     margin: 10vh 0;
     text-align: left;
 }
+
+.fill-white {
+    fill: #fff;
+}
+
+.mission-cards {
+    width:80%;
+    line-height: 1;
+    padding: 1vh;
+    margin-bottom: 100px;
+    border: 1px solid slategray;
+}
+
+.vertical-align {
+    margin-top: 60px;
+}
+
+.aside-tickets {
+    padding-left: 30px;
+}
+
+.background-opaque {
+    background-color: rgba(0, 3, 4, 0.7);
+}  
+
 /************** End of Launch Section **************/
 
 
@@ -209,8 +244,48 @@ body {
     text-align: center;
 }
 
+.btn1 > a {
+    color: #FFF;
+}
+
 .btn1:hover {
     background-color: #342133;
     color: #fff;
 }
 /************** End of Button **************/
+
+
+/************** Media Queries **************/
+@media (max-width: 767.98px){
+    .section2 {
+        height: 100vh;
+    }
+
+    .row > iframe, .row > article {
+        margin: 0 auto;
+    }
+
+    .section3 {
+        height: 80vh;
+    }
+
+    
+}
+
+@media (min-width: 768px) {
+    .section3 {
+        height: 100vh;
+    }
+}
+
+@media (min-width: 992px) {
+    .section3 {
+        height: 120vh;
+    }
+}
+
+@media (max-width: 1200px) {
+    .section3 {
+        height: 120vh;
+    }
+}
