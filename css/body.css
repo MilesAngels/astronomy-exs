@@ -71,27 +71,29 @@ body {
 .section2 {
     width: 100%;
     height: 50vh;
-    /* background-image:url('../img/spacex.jpg');
-    background-size: cover;
-    background-repeat: no-repeat; */
-    background-color: #fff;
+    background-color: #000304;
+}
+
+.row > .exoplanet-video, .row > article {
+    padding-top: 5vh;
 }
 
 .exoplanet-container {
-    margin: 5vh;
-    width: 50%;
-    color: #000;
+    color: #FFF;
 }
 
-.exoplanet-video {
-    margin: 5vh;
-    width: 500px;
-    height: 40vh;
+.exoplanet-video > iframe {
+    width: 100%;
+    height: 400px;
 }
 
-.exoplanet-container > h2, .exoplanet-container > p {
-    margin: 5vh;
+article > h2 {
+    padding-top: 8vh;
 }
+
+/* .exoplanet-container > h2, .exoplanet-container > p {
+    margin: 5vh;
+} */
 
 /************** End of Exoplanet Section **************/
 
@@ -99,26 +101,26 @@ body {
 /************** Deep Space Observation Section **************/
 .section3 {
     width: 100%;
-    height: 165vh;
+    height: 100vh;
     color: #FFF;
     margin: 0 auto;
 }
 
 .deep-space-heading {
-    position: relative;
+    /* position: relative; */
     text-align: center;
     margin-top: 10vh;
 }
 
 .deep-space-heading > p {
     margin-top: 2vh;
-    line-height: 1.75rem;  
+    line-height: 1.75rem;
+    padding-bottom: 2vh;  
 }
 
 .star-map {
-    width: 100%;
-    margin: 5vh;
-    height: 100%;
+    width: 75%;
+    margin: 0 auto;
     border-radius: 200%;
     
 }
@@ -162,7 +164,6 @@ body {
 }
 
 .mission-cards {
-    height: 20vh;
     width:80%;
     line-height: 1;
     padding: 1vh;
@@ -252,3 +253,39 @@ body {
     color: #fff;
 }
 /************** End of Button **************/
+
+
+/************** Media Queries **************/
+@media (max-width: 767.98px){
+    .section2 {
+        height: 100vh;
+    }
+
+    .row > iframe, .row > article {
+        margin: 0 auto;
+    }
+
+    .section3 {
+        height: 80vh;
+    }
+
+    
+}
+
+@media (min-width: 768px) {
+    .section3 {
+        height: 100vh;
+    }
+}
+
+@media (min-width: 992px) {
+    .section3 {
+        height: 120vh;
+    }
+}
+
+@media (max-width: 1200px) {
+    .section3 {
+        height: 120vh;
+    }
+}
