@@ -1,0 +1,23 @@
+.footer-margin {
+    margin: 50px 0 50px 0;
+}
+
+.footer-li {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5rem;
+    font-size: 1rem;
+}
+
+.bi {
+    fill:white;
+}
+
+ul{
+    padding-left: 0px;
+}
+
+.brand {
+    font-size: 2rem;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
+}
