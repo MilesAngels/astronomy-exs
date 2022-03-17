@@ -3,6 +3,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
 /************** Navigation **************/
+/* .container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+} */
+
 /* Changing the brand */
 .navbar-brand {
     font-family: 'Roboto Slab', serif;
