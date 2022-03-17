@@ -11,3 +11,10 @@
 .bi {
     fill:white;
 }
+
+
+.brand {
+    font-size: 2rem;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
+}
