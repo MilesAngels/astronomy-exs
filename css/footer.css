@@ -12,6 +12,9 @@
     fill:white;
 }
 
+.no-padding {
+    padding-left: 0px;
+}
 
 .brand {
     font-size: 2rem;
