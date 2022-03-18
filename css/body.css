@@ -203,7 +203,8 @@ article > h2 {
 .ribbon2 {
     width: 100%;
     height: 50vh;
-    background-image: linear-gradient(to bottom, #240b3c, #2b143c, #301c3d, #35243d, #392c3e);
+    /* background-image: linear-gradient(to bottom, #240b3c, #2b143c, #301c3d, #35243d, #392c3e); */
+    background-image: linear-gradient(to top, #000304, #000d18, #001128, #031236, #240b3c);
 }
 
 .ribbon3 {
@@ -216,7 +217,7 @@ article > h2 {
     padding: 3rem 1.5rem;
     /* background-color: #FFF; */
     color: #FFF;
-    margin-top: -10vh;
+    /* margin-top: -10vh; */
 }
 
 .ribbon-card > p {
